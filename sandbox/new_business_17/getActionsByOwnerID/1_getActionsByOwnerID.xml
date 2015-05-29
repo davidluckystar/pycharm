@@ -1,0 +1,34 @@
+<ns0:getActionsByOwnerIDResponse xmlns:ns0="http://tmobilesap.cprm.tmobile.de/services/CPRM/BusinessParty/SalesOrganisationReadServices/getActionsByOwnerID">
+  <ns0:eiMessageContext>
+    <requestId xmlns="http://messaging.ei.tmobile.net/datatypes">CAP-hrrnv47r_zn3ij3vdu1rt</requestId>
+    <timeLeft xmlns="http://messaging.ei.tmobile.net/datatypes">9404</timeLeft>
+    <sender xmlns="http://messaging.ei.tmobile.net/datatypes">sndr:de.tmobile.tmobilesap.architecture.SAP:SAP</sender>
+    <correlationId xmlns="http://messaging.ei.tmobile.net/datatypes">3S1PTBtQc90DQrTGDq2Wc924rqZn0qnvgxGFVXJhwff7pHxl90kQ</correlationId>
+  </ns0:eiMessageContext>
+  <ns0:data>
+    <ns0:getActionsByOwnerID>
+      <ns1:arrayelement xmlns:ns1="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/l_getactionsbyowneridresult">
+        <ns2:actionID xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">AAABA0001</ns2:actionID>
+        <ns2:shortDescription xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">keine Bereitstellungskosten</ns2:shortDescription>
+        <ns2:longDescription xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">keine Bereitstellungskosten - AKZ Nummer 5</ns2:longDescription>
+        <ns2:dateFrom xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">2013-06-26T00:00:00</ns2:dateFrom>
+        <ns2:dateTo xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">2099-11-11T00:00:00</ns2:dateTo>
+        <ns2:participationMonths xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">0</ns2:participationMonths>
+        <ns2:tariffID xsi:nil="true" xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <ns2:bindingPeriod xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">0</ns2:bindingPeriod>
+        <ns2:processDescription xsi:nil="true" xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </ns1:arrayelement>
+      <ns1:arrayelement xmlns:ns1="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/l_getactionsbyowneridresult">
+        <ns2:actionID xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">AAAAY0001</ns2:actionID>
+        <ns2:shortDescription xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">keine Bereitstellungskosten</ns2:shortDescription>
+        <ns2:longDescription xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">Aktualisierung AKZ Nummer 4 - geändert 17.7.2013</ns2:longDescription>
+        <ns2:dateFrom xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">2013-06-26T00:00:00</ns2:dateFrom>
+        <ns2:dateTo xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">2099-11-11T00:00:00</ns2:dateTo>
+        <ns2:participationMonths xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">0</ns2:participationMonths>
+        <ns2:tariffID xsi:nil="true" xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <ns2:bindingPeriod xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult">0</ns2:bindingPeriod>
+        <ns2:processDescription xsi:nil="true" xmlns:ns2="http://tmobilesap.cprm.tmobile.de/datatypes/cprm/businessparty/s_getactionsbyowneridresult" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </ns1:arrayelement>
+    </ns0:getActionsByOwnerID>
+  </ns0:data>
+</ns0:getActionsByOwnerIDResponse>

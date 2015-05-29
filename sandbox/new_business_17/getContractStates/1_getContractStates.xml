@@ -1,0 +1,20 @@
+<ns2:getContractStatesResponse xmlns:ns1="http://messaging.ei.tmobile.net/datatypes" xmlns:ns2="http://ods.bi.tmobile.de/services/BI/DispatcherObjekt/OutboundServices/getContractStates" xmlns:ns3="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/l_odsgroupid" xmlns:ns4="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/s_odsdispatcherobject" xmlns:ns5="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/s_odscontactperson" xmlns:ns6="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/s_odscontract" xmlns:ns7="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/s_odskeyvalue" xmlns:ns8="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/l_odskeyvalue" xmlns:ns9="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/l_odscontract" xmlns:ns10="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/l_odsreachability" xmlns:ns11="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/l_odsdispatcherobject" xmlns:ns12="http://ods.bi.tmobile.de/datatypes/bi/dispatcherobjekt/s_odsresultstatus" xmlns:ns13="http://ods.bi.tmobile.de/services/BI/Handset/HandsetServices/getHandsetProfile">
+  <ns2:eiMessageContext>
+    <ns1:requestId>urn:uuid:1A0B69B2CC8D29F3EA1392656559802136488</ns1:requestId>
+    <ns1:timeLeft>9925</ns1:timeLeft>
+    <ns1:priority>4</ns1:priority>
+    <ns1:sender>sndr:tmd.bi.ods.architecture.ODS:ODSWebServiceProvider:DE</ns1:sender>
+    <ns1:correlationId>hrrzr2fn_n6m5zab1ajuw</ns1:correlationId>
+  </ns2:eiMessageContext>
+  <ns2:data>
+    <ns2:process/>
+    <ns2:directOffer>false</ns2:directOffer>
+    <ns2:dispatcherObjects/>
+    <ns2:resultStatus>
+      <ns12:number>6</ns12:number>
+      <ns12:text>FODS0006 Contact person has no active contracts</ns12:text>
+      <ns12:time>17.02.2014 18:02:39</ns12:time>
+      <ns12:reference xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </ns2:resultStatus>
+  </ns2:data>
+</ns2:getContractStatesResponse>

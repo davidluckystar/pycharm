@@ -1,0 +1,25 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns3:searchTariffsRequest xmlns="http://www.tmobile.de/tvpp/b2b/schema/basicobjectmodel_vcs13_00" xmlns:ns2="http://www.tmobile.de/tvpp/b2b/schema/customerservices_vcs13_00" xmlns:ns3="http://www.tmobile.de/tvpp/b2b/schema/productservices_vcs13_00">
+         <context>
+            <transactionId>bafc6d16-9b81-4131-bd59-e9a80a46eae0</transactionId>
+            <requestId>caa7c6ef-6649-47da-9124-7fc185f9c3c7</requestId>
+         </context>
+         <security>
+            <authentication>
+               <vo>TPG02</vo>
+            </authentication>
+         </security>
+         <metadata>
+            <serviceRevision>0</serviceRevision>
+         </metadata>
+         <process>
+            <businessProcess>CNC</businessProcess>
+         </process>
+         <ns3:data/>
+         <!--b2bCustomerID>1331032566</b2bCustomerID>
+            <b2bContractID>1332028478</b2bContractID>
+         </ns3:data-->
+      </ns3:searchTariffsRequest>
+   </soap:Body>
+</soap:Envelope>

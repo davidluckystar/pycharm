@@ -1,0 +1,161 @@
+<ns0:getSalesDataForProspectResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns15="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/l_salesorg" xmlns:ns6="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/k_campaignexecutiontype" xmlns:ns4="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/l_ccosselectioncontext4" xmlns:ns5="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/s_ccosselectioncontext4" xmlns:ns3="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/s_eligibilitydata9" xmlns:ns12="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/l_key" xmlns:ns8="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/s_processcustomerdiscount" xmlns:ns7="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/l_processcustomerdiscount" xmlns:ns11="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/s_customerdiscounts2" xmlns:ns2="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/l_eligibilitydata9" xmlns:ns14="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/s_salesorg" xmlns:ns10="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/l_customerdiscounts2" xmlns:ns13="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/s_salesstructure" xmlns:ns9="http://ccos.cprm.tmobile.de/datatypes/cprm/offering/l_processes" xmlns:ns0="http://ccos.cprm.tmobile.de/services/CPRM/Offering/SalesServices/getSalesDataForProspect" xmlns:ns1="http://messaging.ei.tmobile.net/datatypes">
+  <ns0:eiMessageContext xmlns:get="http://ccos.cprm.tmobile.de/services/CPRM/Offering/SalesServices/getSalesDataForProspect" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <ns1:requestId>CAP-hxbucxmb_-19zr73bp0gtdj</ns1:requestId>
+    <ns1:timeLeft>9657</ns1:timeLeft>
+    <ns1:priority>4</ns1:priority>
+    <ns1:sender>sndr:tmd.crm.ccos.architecture.CCOS:CCOS:DE</ns1:sender>
+    <ns1:correlationId>bafc6d16-9b81-4131-bd59-e9a80a46eae0</ns1:correlationId>
+  </ns0:eiMessageContext>
+  <ns0:data>
+    <ns0:contractEligiblity>
+      <ns2:arrayelement>
+        <ns3:process>NK</ns3:process>
+        <ns3:processName xsi:nil="true"/>
+        <ns3:rank xsi:nil="true"/>
+        <ns3:isEligible>true</ns3:isEligible>
+        <ns3:reasonCodes/>
+        <ns3:binding xsi:nil="true"/>
+        <ns3:eligibleFor>
+          <ns4:arrayelement>
+            <ns5:process>NK</ns5:process>
+            <ns5:campaignCode>INK_TP_AIP</ns5:campaignCode>
+            <ns5:campaignExecutionType>
+              <ns6:enumId>1302</ns6:enumId>
+            </ns5:campaignExecutionType>
+            <ns5:campaignAlert xsi:nil="true"/>
+            <ns5:leadSource>0308100010002</ns5:leadSource>
+            <ns5:offerFolder xsi:nil="true"/>
+            <ns5:useOfferFolderOverwrite>false</ns5:useOfferFolderOverwrite>
+            <ns5:offerInstanceNumber xsi:nil="true"/>
+            <ns5:ccosOrderId xsi:nil="true"/>
+            <ns5:unrestrictedPortfolio>false</ns5:unrestrictedPortfolio>
+            <ns5:additionalInformation xsi:nil="true"/>
+            <ns5:rank>1</ns5:rank>
+          </ns4:arrayelement>
+          <ns4:arrayelement>
+            <ns5:process>NK</ns5:process>
+            <ns5:campaignCode>INK_WK_ALL</ns5:campaignCode>
+            <ns5:campaignExecutionType>
+              <ns6:enumId>1302</ns6:enumId>
+            </ns5:campaignExecutionType>
+            <ns5:campaignAlert>Masterkampagne zu Campaign Code INK_WK_ALL</ns5:campaignAlert>
+            <ns5:leadSource>0390300010002</ns5:leadSource>
+            <ns5:offerFolder xsi:nil="true"/>
+            <ns5:useOfferFolderOverwrite>false</ns5:useOfferFolderOverwrite>
+            <ns5:offerInstanceNumber xsi:nil="true"/>
+            <ns5:ccosOrderId xsi:nil="true"/>
+            <ns5:unrestrictedPortfolio>false</ns5:unrestrictedPortfolio>
+            <ns5:additionalInformation xsi:nil="true"/>
+            <ns5:rank>2</ns5:rank>
+          </ns4:arrayelement>
+          <ns4:arrayelement>
+            <ns5:process>NK</ns5:process>
+            <ns5:campaignCode>INK_WB_VPP</ns5:campaignCode>
+            <ns5:campaignExecutionType>
+              <ns6:enumId>1302</ns6:enumId>
+            </ns5:campaignExecutionType>
+            <ns5:campaignAlert>Masterkampagne zu Campaign Code INK_WB_VPP</ns5:campaignAlert>
+            <ns5:leadSource>0259100010002</ns5:leadSource>
+            <ns5:offerFolder xsi:nil="true"/>
+            <ns5:useOfferFolderOverwrite>false</ns5:useOfferFolderOverwrite>
+            <ns5:offerInstanceNumber xsi:nil="true"/>
+            <ns5:ccosOrderId xsi:nil="true"/>
+            <ns5:unrestrictedPortfolio>false</ns5:unrestrictedPortfolio>
+            <ns5:additionalInformation xsi:nil="true"/>
+            <ns5:rank>3</ns5:rank>
+          </ns4:arrayelement>
+        </ns3:eligibleFor>
+      </ns2:arrayelement>
+      <ns2:arrayelement>
+        <ns3:process>HW</ns3:process>
+        <ns3:processName xsi:nil="true"/>
+        <ns3:rank xsi:nil="true"/>
+        <ns3:isEligible>true</ns3:isEligible>
+        <ns3:reasonCodes/>
+        <ns3:binding xsi:nil="true"/>
+      </ns2:arrayelement>
+      <ns2:arrayelement>
+        <ns3:process>COCA</ns3:process>
+        <ns3:processName xsi:nil="true"/>
+        <ns3:rank xsi:nil="true"/>
+        <ns3:isEligible>true</ns3:isEligible>
+        <ns3:reasonCodes/>
+        <ns3:binding xsi:nil="true"/>
+        <ns3:eligibleFor>
+          <ns4:arrayelement>
+            <ns5:process>COCA</ns5:process>
+            <ns5:campaignCode>IUC_EG_COC</ns5:campaignCode>
+            <ns5:campaignExecutionType>
+              <ns6:enumId>1302</ns6:enumId>
+            </ns5:campaignExecutionType>
+            <ns5:campaignAlert>Masterkampagne zu Campaign Code IUC_EG_COC</ns5:campaignAlert>
+            <ns5:leadSource>9901999999999</ns5:leadSource>
+            <ns5:offerFolder xsi:nil="true"/>
+            <ns5:useOfferFolderOverwrite>false</ns5:useOfferFolderOverwrite>
+            <ns5:offerInstanceNumber xsi:nil="true"/>
+            <ns5:ccosOrderId xsi:nil="true"/>
+            <ns5:unrestrictedPortfolio>false</ns5:unrestrictedPortfolio>
+            <ns5:additionalInformation xsi:nil="true"/>
+            <ns5:rank>1</ns5:rank>
+          </ns4:arrayelement>
+        </ns3:eligibleFor>
+      </ns2:arrayelement>
+    </ns0:contractEligiblity>
+    <ns0:customerDiscounts>
+      <ns7:arrayelement>
+        <ns8:processes>
+          <ns9:arrayelement>HW</ns9:arrayelement>
+        </ns8:processes>
+        <ns8:customerDiscounts>
+          <ns10:arrayelement>
+            <ns11:ruleName>Process</ns11:ruleName>
+            <ns11:ruleValue>HW</ns11:ruleValue>
+            <ns11:rank>12001</ns11:rank>
+            <ns11:group>Customer-Discounts-30</ns11:group>
+            <ns11:exclusiveType>1</ns11:exclusiveType>
+          </ns10:arrayelement>
+        </ns8:customerDiscounts>
+        <ns8:targetPriceKeys>
+          <ns12:arrayelement>PR-0071242</ns12:arrayelement>
+        </ns8:targetPriceKeys>
+      </ns7:arrayelement>
+    </ns0:customerDiscounts>
+    <ns0:salesStructure>
+      <ns13:salesOrganisation>
+        <ns14:salesOrganisation>TPG02</ns14:salesOrganisation>
+        <ns14:name>TPG02</ns14:name>
+        <ns14:description xsi:nil="true"/>
+        <ns14:level>0</ns14:level>
+      </ns13:salesOrganisation>
+      <ns13:parentSalesOrganisations>
+        <ns15:arrayelement>
+          <ns14:salesOrganisation>50026256</ns14:salesOrganisation>
+          <ns14:name>Eigenbetriebene Shops</ns14:name>
+          <ns14:description>Eigenbetriebene Shops</ns14:description>
+          <ns14:level>1</ns14:level>
+        </ns15:arrayelement>
+        <ns15:arrayelement>
+          <ns14:salesOrganisation>50004219</ns14:salesOrganisation>
+          <ns14:name>TPG</ns14:name>
+          <ns14:description>TPG</ns14:description>
+          <ns14:level>2</ns14:level>
+        </ns15:arrayelement>
+        <ns15:arrayelement>
+          <ns14:salesOrganisation>50003958</ns14:salesOrganisation>
+          <ns14:name>Vertrieb Privatkunden</ns14:name>
+          <ns14:description>Vertrieb Privatkunden</ns14:description>
+          <ns14:level>3</ns14:level>
+        </ns15:arrayelement>
+      </ns13:parentSalesOrganisations>
+      <ns13:parentSalesOrgGroups>
+        <ns15:arrayelement>
+          <ns14:salesOrganisation>PRODTEST</ns14:salesOrganisation>
+          <ns14:name>PRODTEST</ns14:name>
+          <ns14:description xsi:nil="true"/>
+          <ns14:level>-1</ns14:level>
+        </ns15:arrayelement>
+      </ns13:parentSalesOrgGroups>
+      <ns13:childSalesOrganisations/>
+    </ns0:salesStructure>
+  </ns0:data>
+</ns0:getSalesDataForProspectResponse>
